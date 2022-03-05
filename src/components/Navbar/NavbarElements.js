@@ -7,7 +7,7 @@ background: #323232;
 height: 65px;
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+padding: 0.2rem calc((100vw - 100px) / 2);
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
@@ -16,9 +16,10 @@ z-index: 12;
 export const NavLink = styled(Link)`
 color: #FDEFF4;
 display: flex;
+margin-left: 10px;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0 0.5rem;
 height: 100%;
 cursor: pointer;
 &.active {
