@@ -7,7 +7,7 @@ return (
 		display: 'flex',
 		justifyContent: 'center',
 		alignItems: 'center',
-		height: '50vh'
+		height: '50vh',
 	}}
 	>
 	<h1>CodeChef ADGITM</h1>
