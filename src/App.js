@@ -7,6 +7,7 @@ import About from './pages/about';
 import Events from './pages/events';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
+import Become_A_Member from './pages/become a member';
 import Contact from './pages/contact';
 import Address from './pages/address';
 
@@ -20,6 +21,7 @@ return (
 		<Route path='/events' component={Events} />
 		<Route path='/team' component={Teams} />
 		<Route path='/blogs' component={Blogs} />
+		<Route path='/become a member' component={Become_A_Member} />
 		<Route path='/contact' component={Contact} />
 		<Route path='/address' component={Address} />
 		

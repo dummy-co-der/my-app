@@ -4,6 +4,7 @@ Nav,
 NavLink,
 Bars,
 NavMenu,
+NavMember,
 NavBtn,
 NavBtnLink,
 
@@ -27,6 +28,9 @@ return (
 		</NavLink>
 		<NavLink to='/blogs' activeStyle>
 			Blogs
+		</NavLink>
+		<NavLink to='/become a member' activeStyle>
+			Become A Member
 		</NavLink>
 		<NavLink to='/contact' activeStyle>
 			Contact
