@@ -7,6 +7,8 @@ import About from './pages/about';
 import Events from './pages/events';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
+import Contact from './pages/contact';
+import Address from './pages/address';
 
 function App() {
 return (
@@ -18,6 +20,9 @@ return (
 		<Route path='/events' component={Events} />
 		<Route path='/team' component={Teams} />
 		<Route path='/blogs' component={Blogs} />
+		<Route path='/contact' component={Contact} />
+		<Route path='/address' component={Address} />
+		
 	</Switch>
 	</Router>
 );
