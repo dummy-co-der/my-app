@@ -14,8 +14,8 @@ return (
 	<>
 	<Nav>
 		<Bars />
-
 		<NavMenu>
+		<img src="./Codechef.png"/>
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
