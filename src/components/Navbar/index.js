@@ -4,6 +4,8 @@ Nav,
 NavLink,
 Bars,
 NavMenu,
+NavBtn,
+NavBtnLink,
 
 } from './NavbarElements';
 
@@ -25,6 +27,12 @@ return (
 		</NavLink>
 		<NavLink to='/blogs' activeStyle>
 			Blogs
+		</NavLink>
+		<NavLink to='/contact' activeStyle>
+			Contact
+		</NavLink>
+		<NavLink to='/address' activeStyle>
+			Address
 		</NavLink>
 	</NavMenu>	
 		
