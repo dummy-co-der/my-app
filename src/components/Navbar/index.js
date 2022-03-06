@@ -12,7 +12,7 @@ NavBtnLink,
 
 const Navbar = () => {
 return (
-	<>
+	<div class='divScroll'>
 	<Nav>
 		<Bars />
 		<NavMenu>
@@ -42,7 +42,7 @@ return (
 	</NavMenu>	
 		
 	</Nav>
-	</>
+	</div>
 );
 };
 
