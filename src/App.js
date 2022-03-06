@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages';
@@ -14,18 +14,26 @@ import Address from './pages/address';
 function App() {
 return (
 	<Router>
-	<Navbar />
+	<Navbar/>
+	<Home/>
+	<About/>
+	<Events/>
+	<Teams/>
+	<Blogs/>
+	<Become_A_Member/>
+	<Contact/>
+	<Address/>
 	<Switch>
-		<Route path='/' exact component={Home} />
-		<Route path='/about' component={About} />
-		<Route path='/events' component={Events} />
-		<Route path='/team' component={Teams} />
-		<Route path='/blogs' component={Blogs} />
-		<Route path='/become a member' component={Become_A_Member} />
-		<Route path='/contact' component={Contact} />
-		<Route path='/address' component={Address} />
 		
-	</Switch>
+		{/* <Route path='/about' component={About} />
+		{/* // <Route path='/' component={Home} />
+		// <Route path='/' component={Events} />
+		// <Route path='/' component={Teams} />
+		// <Route path='/' component={Blogs} />
+		// <Route path='/' component={Become_A_Member} />
+		// <Route path='/' component={Contact} />
+		// <Route path='/' component={Address} />   */}
+		</Switch> 
 	</Router>
 );
 }

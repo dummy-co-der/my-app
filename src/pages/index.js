@@ -9,14 +9,15 @@ return (
 		display: 'flex',
 		justifyContent: 'center',
 		alignItems: 'center',
-		height: '100vh',
+		height: '90vh',
 		backgroundImage: `url("./planet.jpg")`,
+		flexDirection:'column',
 		color:'white',
 	}}
 	>
-	<img src= "./mainlogo.png" width="125" 
-     height="125"/>
-	 <h1>CodeChef ADGITM</h1>
+	<img src= "./mainlogo.png" alt="center" width="125" height="125"/>
+	 <h2>CodeChef ADGITM</h2>
+	 <h1>A taste of good life</h1>
 	 </div>
 	</>
 );

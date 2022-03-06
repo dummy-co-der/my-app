@@ -7,7 +7,7 @@ background: #323232;
 height: 65px;
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 100px) / 2);
+padding: 0.2rem calc((100vw - 300px) / 2);
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
