@@ -22,8 +22,6 @@ text-decoration: none;
 padding: 0 0.5rem;
 height: 100%;
 cursor: pointer;
-&.active {
-	color: #F1D00A;
 }
 `;
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Events = () => {
 return (
-	<div
+	<div className='Events'
 	style={{
 		display: 'flex',
 		justifyContent: 'center',
