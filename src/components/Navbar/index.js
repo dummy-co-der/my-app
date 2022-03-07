@@ -15,29 +15,29 @@ return (
 	<div class='divScroll'>
 	<Nav>
 		<Bars />
-		<NavMenu>
+		<NavMenu >
 		
 		<img className="images" src= "./logo192.png"/>
 		<img className="images"src="./Codechef.png"/>
-		<NavLink to='/about' activeStyle>
+		<NavLink className='Navbarel'to='/about' activeStyle>
 			About
 		</NavLink>
-		<NavLink to='/events' activeStyle>
+		<NavLink className='Navbarel'to='/events' activeStyle>
 			Events
 		</NavLink>
-		<NavLink to='/team' activeStyle>
+		<NavLink className='Navbarel'to='/team' activeStyle>
 			Teams
 		</NavLink>
-		<NavLink to='/blogs' activeStyle>
+		<NavLink className='Navbarel'to='/blogs' activeStyle>
 			Blogs
 		</NavLink>
-		<NavLink to='/become a member' activeStyle>
+		<NavLink className='Navbarel'to='/become a member' activeStyle>
 			Become A Member
 		</NavLink>
-		<NavLink to='/contact' activeStyle>
+		<NavLink className='Navbarel'to='/contact' activeStyle>
 			Contact
 		</NavLink>
-		<NavLink to='/address' activeStyle>
+		<NavLink className='Navbarel'to='/address' activeStyle>
 			Address
 		</NavLink>
 	</NavMenu>	
