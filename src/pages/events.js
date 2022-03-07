@@ -8,7 +8,7 @@ return (
 		flexDirection: 'column',
 		justifyContent: 'center',
 		alignItems: 'center',
-		height: '150vh'
+		height: '105vh'
 	}}
 	>
 		
