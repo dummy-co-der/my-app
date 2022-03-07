@@ -1,47 +1,54 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
 
-const About = () => {
+
+export default function About(){
 	return (
-		<div>
-		<div style={{ height:'10px',
+		<div className="boxes">
+		<div className="box1" style={{ height:'10px',
 		    width: '400px',
+			height:'300px',
 			marginTop: '5%',
-			marginLeft: '40px',
-			marginRight: '50px',
+			marginLeft: '100px',
+			marginRight: '20px',
 			marginBottom: '10px',
 		 }}>
-		<Box color="white" bgcolor="black" p={15}>
-			<h2> OUR GOAL </h2>
+		{/* <Box color="white" bgcolor="grey" p={15}> */}
+		<h2 className="headings"> OUR GOAL </h2>
 		Our goal is to ensure that students love and explore with programming while getting lucrative jobs in the process.
-		</Box></div>
-,
-		<div style={{ height:'10px',
-		width: '400px',
-		marginTop: '-2.7%',
-		marginLeft: '490px',
-		marginRight: '150px',
-		marginBottom: '5px',
-		}}>
-		<Box color="white" bgcolor="black" p={15}>
-			<h2> OUR GOAL </h2>
-		Our goal is to ensure that students love and explore with programming while getting lucrative jobs in the process.
-		</Box></div>
+		{/* </Box> */}
+		</div>
 
-		<div style={{ height:'10px',
+		<div className="box1"style={{ height:'10px',
 		width: '400px',
-		marginTop: '-1.2%',
-		marginLeft: '940px',
+		height:'300px',
+		marginTop: '-20.90%',
+		marginLeft: '530px',
 		marginRight: '150px',
 		marginBottom: '5px',
 		}}>
-		<Box color="white" bgcolor="black" p={15}>
-			<h2> OUR GOAL </h2>
+		{/* <Box color="white" bgcolor="grey" p={15}> */}
+		<h2 className="headings"> OUR GOAL </h2>
 		Our goal is to ensure that students love and explore with programming while getting lucrative jobs in the process.
-		</Box></div>
+		{/* </Box> */}
+		</div>
+
+		<div className="box1" style={{ height:'10px',
+		width: '400px',
+		height:'300px',
+		marginTop: '-20.5%',
+		marginLeft: '960px',
+		marginRight: '150px',
+		marginBottom: '5px',
+		}}>
+		{/* <Box color="white" bgcolor="black" p={15}> */}
+			<h2 className="headings"> OUR GOAL </h2>
+		Our goal is to ensure that students love and explore with programming while getting lucrative jobs in the process.
+		{/* </Box> */}
+		</div>
 		</div>
 		
 );
 };
 
-export default About;
+// export default About;

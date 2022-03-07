@@ -16,8 +16,9 @@ return (
 	<Nav>
 		<Bars />
 		<NavMenu>
-		<img src= "./logo192.png"/>
-		<img src="./Codechef.png"/>
+		
+		<img className="images" src= "./logo192.png"/>
+		<img className="images"src="./Codechef.png"/>
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
