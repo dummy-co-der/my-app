@@ -19,6 +19,9 @@ return (
 		
 		<img className="images" src= "./logo192.png"/>
 		<img className="images"src="./Codechef.png"/>
+		<NavLink className='Navbarel'to='/home' activeStyle>
+			Home
+		</NavLink>
 		<NavLink className='Navbarel'to='/about' activeStyle>
 			About
 		</NavLink>

@@ -2,19 +2,24 @@ import React from 'react';
 
 const Events = () => {
 return (
+	
+	
 	<div className='Events'
 	style={{
 		display: 'flex',
-		flexDirection: 'column',
-		justifyContent: 'center',
+		flexDirection: 'row',
+		justifyContent: 'row',
 		alignItems: 'center',
-		height: '105vh'
+		height: '100vh'
 	}}
 	>
-		
-	<h1>Welcome to CodeChef ADGITM</h1>
-	<h3> Our Departments where you can join us. </h3>
-	
+       <p><h3> DOWN THE MEMORY LANE </h3>
+	   <h1> Our Past Events </h1></p>
+
+	   <img src= "\img\new\dsacarnival.jpg" alt='left' width='380' height='400'/>
+	   <img src= "\img\new\ltc.jpg" alt='center' width='380' height='400'/>
+	   <img src= "\img\new\mock in.jpg" alt='center' width='380' height='400'/>
+	   
 	</div>
 );
 };

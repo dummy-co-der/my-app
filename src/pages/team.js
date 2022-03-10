@@ -5,12 +5,14 @@ return (
 	<div
 	style={{
 		display: 'flex',
+		flexDirection:'row',
 		justifyContent: 'center',
 		alignItems: 'center',
-		height: '50vh'
+		height: '100vh',
 	}}
 	>
-	<h1>Welcome to CodeChef Team</h1>
+
+	<h1>Meet Our Team</h1>
 	</div>
 );
 };

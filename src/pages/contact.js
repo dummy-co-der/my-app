@@ -5,12 +5,14 @@ return (
 	<div
 	style={{
 		display: 'flex',
+		flexDirection: 'column',
 		justifyContent: 'center',
 		alignItems: 'center',
-		height: '50vh'
+		height: '100vh',
 	}}
 	>
-	<h1>At CodeChef ADGITM we believe in growing together as a team.</h1>
+	<h3>ASK YOUR QUERIES</h3>
+	<h1>Send A Message</h1>
 	</div>
 );
 };
