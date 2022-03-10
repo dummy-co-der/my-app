@@ -18,7 +18,7 @@ return (
 		<NavMenu >
 		
 		<img className="images" src= "./logo192.png"/>
-		<img className="images"src="./Codechef.png"/>
+		<img className="images"src="./Codecheftext2.png"/>
 		<NavLink className='Navbarel'to='/home' activeStyle>
 			Home
 		</NavLink>
