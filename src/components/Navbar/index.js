@@ -4,9 +4,9 @@ Nav,
 NavLink,
 Bars,
 NavMenu,
-NavMember,
-NavBtn,
-NavBtnLink,
+// NavMember,
+// NavBtn,
+// NavBtnLink,
 
 } from './NavbarElements';
 
