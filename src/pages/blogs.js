@@ -10,9 +10,9 @@ return (
 		alignItems: 'center',
 		height: '75vh',
 	}}
-	>
-	<h3>CODECHEF BLOG</h3>
-	<h1> Our Latest News</h1>
+	>	
+	<center><h3>CODECHEF BLOG</h3>
+	<h1> Our Latest News</h1></center>
 	<h1 alignItems='left'> October</h1>
 	<section>
             <div class="sponsorsDiv">
@@ -53,8 +53,6 @@ return (
                 </div>
             </section>
 	</div>
-
-
 
 );
 };
