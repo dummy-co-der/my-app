@@ -8,7 +8,7 @@ return (
 		flexDirection: 'column',
      	justifyContent: 'column',
 		alignItems: 'center',
-		height: '75vh',
+		height: '100vh',
 	}}
 	>	
 	<center><h3>CODECHEF BLOG</h3>
