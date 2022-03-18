@@ -19,11 +19,11 @@ return (
 	<Home/>
 	<About/>
 	<Events/>
-	<Teams/>
+	{/* <Teams/> */}
 	<Blogs/>
-	<Become_A_Member/>
+	{/* <Become_A_Member/> */}
 	<Contact/>
-	<Address/>
+	{/* <Address/> */}
 	<Switch>
 		
 		{/* <Route path='/about' component={About} />

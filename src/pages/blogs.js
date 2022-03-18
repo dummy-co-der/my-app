@@ -13,7 +13,7 @@ return (
 	>	
 	<center><h3>CODECHEF BLOG</h3>
 	<h1> Our Latest News</h1></center>
-	<h1 alignItems='left'> October</h1>
+	<h1 > October</h1>
 	<section>
             <div class="sponsorsDiv">
                 <h2 class="sponsorsText">Our Past Event Sponsors</h2>
