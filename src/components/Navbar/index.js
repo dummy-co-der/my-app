@@ -9,7 +9,8 @@ NavMenu,
 // NavBtnLink,
 
 } from './NavbarElements';
-
+ import { GiHamburgerMenu } from 'react-icons/gi';
+  
 const Navbar = () => {
 return (
 	<div class='divScroll'>
@@ -17,8 +18,8 @@ return (
 		<Bars />
 		<NavMenu >
 		
-		<img className="images" src= "./logo192.png"/>
-		<img className="images"src="./Codecheftext2.png"/>
+		<img className="image1" src= "./logo192.png"/>
+		<img className="image2"src="./Codecheftext2.png"/>
 		<NavLink className='Navbarel'to='/home' activeStyle>
 			Home
 		</NavLink>
@@ -46,7 +47,14 @@ return (
 	</NavMenu>	
 		
 	</Nav>
+	<div className='hamburger-menu'>
+		<a href='#'> <GiHamburgerMenu />
+		</a>
+
 	</div>
+
+	</div>
+	
 );
 };
 

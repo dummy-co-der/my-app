@@ -14,9 +14,9 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #FDEFF4;
+color: #FDEFF4; 
 display: flex;
-margin-left: 10px;
+margin-left: 15px;
 align-items: center;
 text-decoration: none;
 padding: 0 0.5rem;
@@ -95,4 +95,5 @@ white-space: nowrap; */
 //     color: #808080;
 //   }
 // `;
+
 
