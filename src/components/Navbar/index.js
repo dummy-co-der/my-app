@@ -10,12 +10,14 @@ NavMenu,
 
 } from './NavbarElements';
  import { GiHamburgerMenu } from 'react-icons/gi';
+import { useState } from 'react';
   
 const Navbar = () => {
+	const [showMediaIcons, setShowMediaIcons] = useState(false);
 return (
-	<div class='divScroll'>
+	<div className= { showMediaIcons ? "divScroll mobile-menu-link" : "divScroll" }>
 	<Nav>
-		<Bars />
+	<Bars />
 		<NavMenu >
 		
 		<img className="image1" src= "./logo192.png"/>
@@ -36,7 +38,7 @@ return (
 			Blogs
 		</NavLink>
 		<NavLink className='Navbarel'to='/become a member' activeStyle>
-			Become A Member
+			<p> <center> Become A Member </center> </p> 
 		</NavLink>
 		<NavLink className='Navbarel'to='/contact' activeStyle>
 			Contact
@@ -48,7 +50,7 @@ return (
 		
 	</Nav>
 	<div className='hamburger-menu'>
-		<a href='#'> <GiHamburgerMenu />
+		<a href='#' onClick={() => setShowMediaIcons ( !showMediaIcons ) }> <GiHamburgerMenu />
 		</a>
 
 	</div>

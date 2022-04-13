@@ -24,7 +24,7 @@ export default function About(){
 		<div className="box1"style={{
 		width: '400px',
 		height:'300px',
-		marginTop: '-20.90%',
+		marginTop: '-29.50%',
 		marginLeft: '470px',
 		marginRight: '150px',
 		marginBottom: '100px',
@@ -39,7 +39,7 @@ export default function About(){
 		<div className="box1" style={{ 
 		width: '400px',
 		height:'300px',
-		marginTop: '-20.5%',
+		marginTop: '-29.5%',
 		marginLeft: '925px',
 		marginRight: '150px',
 		marginBottom: '100px',
