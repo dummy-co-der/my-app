@@ -150,11 +150,42 @@
   background-color: grey;
   color:#F1D00A;
   }
-  .heading{
+  .heading1{
     text-align: center;
     display: flex;
     flex-direction: column;
   }
+  .box2{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #F1D00A ;
+    text-align: center;
+  }
+  .box2:hover {
+    background-color: grey;
+    color:#F1D00A;
+    }
+    .heading2{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .box3{
+      display: flex;
+      flex-direction: column;
+      border: 4px solid #F1D00A ;
+      text-align: center;
+    }
+    .box3:hover {
+      background-color: grey;
+      color:#F1D00A;
+      }
+      .heading3{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+
 .image1{
   margin-left: -520px;
   margin-right: 450px;
@@ -185,12 +216,6 @@
   
 }
 
-.sectionnn{
-  background-color: white;
-  color:black;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 .blogs{
   background-color: white;
@@ -210,6 +235,14 @@ Form {
   background-color: black;
   color:white;
 }
+
+.sectionnn{
+  background-color: white;
+  color:black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .container1{
   display:flex;
   flex-direction: column;
@@ -219,7 +252,14 @@ Form {
 .container2{
    display: flex;
    flex-direction: column;
+   margin-left: 250px;
 }
+.container3{
+  display: flex;
+  flex-direction: column;
+  margin-left: 220px;
+}
+
 /* /////////////////////////////////////////////////// */
 /* SPONSOR SECTION
 ================================================= */
