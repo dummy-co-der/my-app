@@ -59,7 +59,7 @@ export default function About(){
 		<div className='sectionnn'>
 		<center><h1> Welcome to CodeChef ADGITM.</h1>
 		<h3> Our Departments where you can join us </h3> </center>
-		<div className='Events'	>
+		<div className='Department'	>
 	<div className="container1">
 	<img src="/img/dept/management.jpg" alt='center' width='125' height='125'/>
 	<h5> MANAGEMENT </h5>

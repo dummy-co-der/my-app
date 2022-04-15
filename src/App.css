@@ -208,14 +208,17 @@
 }
 
 .Events{
- 
-  display: flex;
-  flex-direction: row;
   background-color: white;
   color:black;
   
 }
 
+.Department{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color:black;
+}
 
 .blogs{
   background-color: white;
